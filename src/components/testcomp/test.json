@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_testcomp_tests",
+  "info": {
+    "displayName": "test",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "book": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::book.book"
+    },
+    "books": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::book.book"
+    },
+    "t": {
+      "type": "string"
+    },
+    "t2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "testcomp.test2"
+    }
+  }
+}

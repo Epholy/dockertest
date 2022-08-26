@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "招聘信息",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "position": {
+      "type": "string"
+    },
+    "responsibilities": {
+      "type": "text"
+    },
+    "requirements": {
+      "type": "text"
+    },
+    "number": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "recommendeds",
+  "info": {
+    "singularName": "recommended",
+    "pluralName": "recommendeds",
+    "displayName": "推荐图书",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "relatedBook": {
+      "type": "component",
+      "repeatable": true,
+      "component": "related-book.关联图书"
+    }
+  }
+}

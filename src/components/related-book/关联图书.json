@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_related_book_",
+  "info": {
+    "displayName": "关联图书",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "book": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::book.book"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    }
+  }
+}

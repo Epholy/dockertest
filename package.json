@@ -1,0 +1,40 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.4",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.5"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-react": "3.0.3",
+    "@strapi/plugin-i18n": "^4.1.8",
+    "@strapi/plugin-users-permissions": "^4.1.8",
+    "@strapi/strapi": "^4.1.8",
+    "PickerKMC": "file:./src/local_libs/PickerKMC",
+    "ac-colors": "^1.4.3",
+    "axios": "^0.24.0",
+    "better-sqlite3": "^7.5.1",
+    "canvas": "^2.8.0",
+    "strapi-plugin-ckeditor5": "file:./src/local_libs/strapi-plugin-ckeditor5-main"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4b54425c-d6d5-4683-9195-0cd9690b2671"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@3.1.1"
+}

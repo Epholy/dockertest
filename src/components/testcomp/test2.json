@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_testcomp_test2s",
+  "info": {
+    "displayName": "test2",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "ti": {
+      "type": "string"
+    }
+  }
+}

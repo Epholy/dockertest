@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_default_items",
+  "info": {
+    "displayName": "items",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "checked": {
+      "type": "boolean"
+    }
+  }
+}
